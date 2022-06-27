@@ -47,31 +47,25 @@
 
           <!--Destinos-->
           <div>
-            <label for="exampleDataList" class="form-label text-center fs-5">Origem</label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Digite sua origem">
-            <datalist id="datalistOptions">
-              <option value="">
-              <option value="">
-              <option value="">
-              <option value="">
-            </datalist>
+            <div class="origem">
+              <label for="exampleDataList" class="form-label text-center fs-5">Origem</label>
+              <input class="form-control col-md-2" list="datalistOptions" id="exampleDataList"
+                placeholder="Digite sua origem">
+              <label for="data" class="form-label text-center fs-5 col-md-3">Data</label>
+              <input type="date" name="data" id="data" class="form-control" required>
+            </div>
 
-            <label for="exampleDataList" class="form-label text-center fs-5">Destino</label>
-            <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Digite seu destino">
-            <datalist id="datalistOptions">
-              <option value="Cancun">
-              <option value="Rio">
-              <option value="Londres">
-              <option value="Grécia">
-            </datalist>
+            <div class="destino">
+              <label for="exampleDataList" class="form-label text-center fs-5">Destino</label>
+              <input class="form-control col-md-2" list="datalistOptions" id="exampleDataList"
+                placeholder="Digite seu destino">
+              <label for="data" class="form-label text-center fs-5">Data</label>
+              <input type="date" name="data" id="data" class="form-control" required>
+            </div>
           </div>
-          <!--Destinos-->
-
-
-          <!-- <h1 class="display-4 fw-normal">World Turismo</h1> -->
-          <!-- <p class="lead fw-normal">A melhor agência de Viagens do Brasil!</p> -->
-          <!-- <a class="btn btn-outline-light" href="Destinos.html">Destinos</a> -->
         </div>
+        <!--Destinos-->
+
         <div class="product-device shadow-sm d-none d-md-block"></div>
         <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
       </div>
@@ -118,9 +112,11 @@
     </footer>
   </div>
 
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+  </script>
+
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-  integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-</script>
 
 </html>
