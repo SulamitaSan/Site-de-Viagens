@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <title>World Turismo</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="/imagens/logo.png" type="image/x-icon">
+  <!-- Bootstrap CSS v5.2.0-beta1 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <link rel="stylesheet" href="agencia.css">
+
+
+</head>
+
+<body>
+
+  <!--navbar-->
+  <div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="home.html">World Turismo</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+            <a class="nav-link" href="Sobre-Nós.html">Sobre Nós</a>
+            <a class="nav-link" href="Destinos.html">Destinos</a>
+            <a class="nav-link" href="Promocoes.html">Promoções</a>
+            <a class="nav-link" href="Cadastro.html">Cadastro</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </div>
+
+  <!--navbar-->
+
+  <!--formulario-->
+  <main class="container d-flex justify-content-center flex-column my-2">
+    <h1>Cadastro</h1>
+
+    <form action="./clientes.html">
+      <!-- nome -->
+      <label for="nome" class="form-label">Nome Completo:</label>
+      <input type="text" name="nome" id="nome" class="form-control" required placeholder="">
+
+      <!-- Email -->
+      <label for="email" class="form-label">Email:</label>
+      <input type="email" name="email" id="email" class="form-control" required placeholder=""><br>
+
+      <!-- Genero -->
+
+      <input type="radio" name="opc" id="masc" value="masc" required>
+      <label for="masc">Masculino</label><br>
+
+      <input type="radio" name="opc" id="fem" value="fem" required>
+      <label for="masc">Feminino</label><br>
+
+      <input type="radio" name="opc" id="nb" value="nb" required>
+      <label for="fem">Não-Binário</label><br><br>
+
+      <!-- Data nascimento -->
+      <label for="data" class="form-label">Data de nascimento:</label>
+      <input type="date" name="data" id="data" class="form-control" required>
+
+      <!-- Cidade -->
+      <label for="cidade" class="form-label">Cidade:</label>
+      <input type="text" id="cidade" class="form-control" required placeholder="">
+
+      <!-- Estado -->
+
+
+      <label for="estado" class="form-label">Estado:</label>
+      <select class="form-select" aria-label="Default select example">
+        <option selected disabled>Selecione</option>
+        <option value="1">AC</option>
+        <option value="2">AL</option>
+        <option value="3">AP</option>
+        <option value="4">AM</option>
+        <option value="5">BA</option>
+        <option value="6">CE</option>
+        <option value="7">DF</option>
+        <option value="8">ES</option>
+        <option value="9">GO</option>
+        <option value="10">MA</option>
+        <option value="11">MT</option>
+        <option value="12">MS</option>
+        <option value="13">MG</option>
+        <option value="14">PA</option>
+        <option value="15">PB</option>
+        <option value="16">PR</option>
+        <option value="17">PE</option>
+        <option value="18">PI</option>
+        <option value="19">RR</option>
+        <option value="20">RO</option>
+        <option value="21">RJ</option>
+        <option value="22">RN</option>
+        <option value="23">RS</option>
+        <option value="24">SC</option>
+        <option value="25">SP</option>
+        <option value="26">SE</option>
+        <option value="27">TO</option>
+      </select>
+      <!-- Telefone -->
+      <div class="mb-3">
+        <label for="tel" class="form-label">Telefone:</label>
+        <input type="tel" name="tel" id="tel" class="form-control" maxlength="11" required
+          placeholder="Ex.: 11987542154">
+      </div>
+      <!-- Button enviar -->
+      <input type="submit" class="btn btn-primary" value="Enviar">
+
+      <!-- <button type="submit" class="btn btn-primary">Enviar</button> -->
+    </form>
+  </main>
+
+  <!--formulario-->
+  
+  <footer class="d-flex align-items-center justify-content-center">
+    <p class="">&#169 by Sulamita Santos</p>
+  </footer>
+
+
+
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous">
+  </script>
+</body>
+
+</html>
