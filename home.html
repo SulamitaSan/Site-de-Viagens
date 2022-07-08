@@ -1,122 +1,161 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+  <!DOCTYPE html>
+  <html lang="pt-br">
 
-<head>
-  <meta charset='utf-8'>
-  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-  <title>World Turismo</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel="shortcut icon" href="/imagens/logo.png" type="image/x-icon">
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>World Turismo</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="shortcut icon" href="/imagens/icon.png" type="image/x-icon">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="agencia.css">
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  </head>
 
-</head>
-
-<body>
-
-  <!--navbar-->
-  <div class="home">
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="home.html">World Turismo</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
-          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-link active" aria-current="page" href="home.html">Home</a>
-            <a class="nav-link" href="Sobre-Nós.html">Sobre Nós</a>
-            <a class="nav-link" href="Destinos.html">Destinos</a>
-            <a class="nav-link" href="Promocoes.html">Promoções</a>
-            <a class="nav-link" href="Cadastro.html">Cadastro</a>
-          </div>
-        </div>
-      </div>
-    </nav>
+  <body>
 
     <!--navbar-->
-
-    <main>
-      <!--Logo-->
-      <div class="position-relative overflow-hidden p-3 p-md-3 m-md-3 text-center">
-        <div class="col-md-2 p-lg-2 mx-auto my-2">
-          <img src="/imagens/logo.png" class="img-thumbnail rounded-pill" alt="logo">
-          <!--Logo-->
-
-          <!--Destinos-->
-          <div>
-            <div class="origem">
-              <label for="exampleDataList" class="form-label text-center fs-5">Origem</label>
-              <input class="form-control col-md-2" list="datalistOptions" id="exampleDataList"
-                placeholder="Digite sua origem">
-              <label for="data" class="form-label text-center fs-5 col-md-3">Data</label>
-              <input type="date" name="data" id="data" class="form-control" required>
-            </div>
-
-            <div class="destino">
-              <label for="exampleDataList" class="form-label text-center fs-5">Destino</label>
-              <input class="form-control col-md-2" list="datalistOptions" id="exampleDataList"
-                placeholder="Digite seu destino">
-              <label for="data" class="form-label text-center fs-5">Data</label>
-              <input type="date" name="data" id="data" class="form-control" required>
+    <div class="home">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-primary bg-gradient">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="home.html">World Turismo</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              <a class="nav-link" href="Sobre-Nós.html">Sobre Nós</a>
+              <a class="nav-link" href="Destinos.html">Destinos</a>
+              <a class="nav-link" href="Promocoes.html">Promoções</a>
+              <a class="nav-link" href="Contato.html">Contato</a>
             </div>
           </div>
         </div>
-        <!--Destinos-->
+      </nav>
+      <!--navbar-->
+      <br>
+      <main>
+        <!--Logo-->
 
-        <div class="product-device shadow-sm d-none d-md-block"></div>
-        <div class="product-device product-device-2 shadow-sm d-none d-md-block"></div>
-      </div>
+        <div class="container overflow-hidden">
+          <div class="row gy-5">
+            <div class="col-6">
+              <div class="d-flex p-3 justify-content-center align-items-center">
 
+                <div class="logo">
+                  <img src="/imagens/logo.png" class="" alt="">
+                </div>
+              </div>
+            </div>
+            <!--Logo-->
 
+            <div class="col">
+              <div class="card-body-1">
+                <div class="position-relative text-center">
+                  <div class="d-flex p-md-1 justify-content-around">
+                    <div class="row g-2">
+                      <div class="d-block w-100">
+                        <div class="origem">
+                          <label for="exampleDataList" class="form-label text-center fs-5">Origem</label>
+                          <input class="form-control" list="datalistOptions" id="exampleDataList"
+                            placeholder="Digite sua origem">
+                          <label for="data" class="form-label text-center fs-5">Data</label>
+                          <input type="date" name="data" id="data" class="form-control" required>
+                        </div>
+                      </div>
+                    </div>
 
-
-      <!--Carrosel-->
-      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-            aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-            aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-            aria-label="Slide 3"></button>
+                    <div class="row g-2">
+                      <div class="d-block w-100">
+                        <div class="destino">
+                          <label for="exampleDataList" class="form-label text-center fs-5">Destino</label>
+                          <input class="form-control" list="datalistOptions" id="exampleDataList"
+                            placeholder="Digite seu destino">
+                          <label for="data" class="form-label text-center fs-5">Data</label>
+                          <input type="date" name="data" id="data" class="form-control" required>
+                        </div>
+                      </div>
+                    </div>
+                  </div> <br>
+                  <a href="Destinos.html" class="btn btn-primary bg-gradient p-md-1" tabindex="-1" role="button"
+                    aria-disabled="true">Pequisar</a>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="/imagens/aviao.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="...">
+        <br>
+        <br>
+
+        <!--Cards-->
+
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="/imagens/praia (2).jpg" class="card-img-top" alt="foto de praia">
+              <div class="card-body">
+                <h5 class="card-title">As Melhores praias</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, nemo
+                  maiores? Provident voluptatum laudantium dolorem incidunt possimus eveniet ipsum. Quidem
+                  dolore maiores aut voluptate ea sit quibusdam eligendi quo eos?</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Imagem ilustrativa</small>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="/imagens/cruzeiro.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="...">
+          <div class="col">
+            <div class="card h-100">
+              <img src="/imagens/torre.jpg" class="card-img-top" alt="foto da torre">
+              <div class="card-body">
+                <h5 class="card-title">Os Melhores locais</h5>
+                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet,
+                  blanditiis. Dolorem, quas earum quasi, quae delectus, illo necessitatibus magnam animi
+                  dicta iusto velit eaque excepturi. Quia earum deserunt aliquam expedita.</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Imagem ilustrativa</small>
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img src="/imagens/rio.jpg" class="d-block w-100" style="height: 500px; object-fit: cover;" alt="...">
+          <div class="col">
+            <div class="card h-100">
+              <img src="/imagens/lhama.jpg" class="card-img-top" alt="foto de uma Lhama">
+              <div class="card-body">
+                <h5 class="card-title">Os Melhores passeios</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni
+                  voluptate hic voluptatem velit dicta ex molestias molestiae dolore! Voluptatem dolorem
+                  officiis excepturi? Vitae, alias quod? Vel aspernatur amet cupiditate repellendus..</p>
+              </div>
+              <div class="card-footer">
+                <small class="text-muted">Imagem ilustrativa</small>
+              </div>
+            </div>
           </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-          data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-    </main>
+
+
+
+
+      </main>
+    </div>
+    <!--divhome-->
+    <br>
+
+
 
     <footer class="d-flex align-items-center justify-content-center">
       <p class="">&#169 by Sulamita Santos</p>
     </footer>
-  </div>
 
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-  </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
 
-</body>
+  </body>
 
-</html>
+  </html>
